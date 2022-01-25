@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainConsultarConSpinner"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consulta Spinner"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <Spinner
+        android:id="@+id/comboPeronas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/txtdocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Documento"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/txtNombreConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nombre"
+        android:layout_marginBottom="5dp"
+        />
+
+    <EditText
+        android:id="@+id/txtTelconsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/Telefono"
+        android:layout_marginBottom="5dp"
+        />
+
+</LinearLayout>

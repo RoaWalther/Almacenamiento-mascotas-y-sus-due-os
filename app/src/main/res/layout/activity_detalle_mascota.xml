@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalleMascotaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informacion Mascota"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="id mascota"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/txtIdMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre mascota"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtDetalleNombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nombre"
+        android:layout_marginBottom="5dp"
+        />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raza mascota"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtDetalleRaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Raza"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informacion Usuario"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtDetalleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtDetalleNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nombre"
+        android:layout_marginBottom="5dp"
+        />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefono"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtDetalleTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/Telefono"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver Atras"
+        android:layout_marginBottom="10dp"
+        android:onClick="atras"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

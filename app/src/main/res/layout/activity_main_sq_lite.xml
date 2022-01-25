@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitySqLite"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registra Usuario"
+        android:layout_marginBottom="10dp"
+        android:onClick="enviarUsuario"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registra Mascota"
+        android:layout_marginBottom="10dp"
+        android:onClick="enviarMascota"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Usuario"
+        android:layout_marginBottom="10dp"
+        android:onClick="consultarUsuario"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Colsutar lista spinner"
+    android:layout_marginBottom="10dp"
+    android:onClick="consultarUsuarioConSpinner"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Colsutar lista listView"
+    android:layout_marginBottom="10dp"
+    android:onClick="consultarLista"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colsutar Mascota"
+        android:layout_marginBottom="10dp"
+        android:onClick="consultarListaMascota"/>
+
+
+
+</LinearLayout>
